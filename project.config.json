@@ -1,0 +1,81 @@
+{
+  "projectname": "loan_platform_client",
+  "description": "weapp",
+  "appid": "",
+  "setting": {
+      "urlCheck": false,
+      "es6": false,
+      "enhance": false,
+      "postcss": false,
+      "preloadBackgroundData": false,
+      "minified": false,
+      "newFeature": false,
+      "coverView": true,
+      "nodeModules": false,
+      "autoAudits": false,
+      "showShadowRootInWxmlPanel": true,
+      "scopeDataCheck": false,
+      "uglifyFileName": false,
+      "checkInvalidKey": true,
+      "checkSiteMap": true,
+      "uploadWithSourceMap": true,
+      "compileHotReLoad": false,
+      "lazyloadPlaceholderEnable": false,
+      "useMultiFrameRuntime": true,
+      "useApiHook": true,
+      "useApiHostProcess": true,
+      "babelSetting": {
+          "ignore": [],
+          "disablePlugins": [],
+          "outputPath": ""
+      },
+      "enableEngineNative": false,
+      "useIsolateContext": false,
+      "userConfirmedBundleSwitch": false,
+      "packNpmManually": false,
+      "packNpmRelationList": [],
+      "minifyWXSS": false,
+      "disableUseStrict": false,
+      "minifyWXML": false,
+      "showES6CompileOption": false,
+      "useCompilerPlugins": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.20.0",
+  "condition": {
+      "miniprogram": {
+          "list": [
+              {
+                  "name": "授信-首页",
+                  "pathName": "pages/credit/index/index",
+                  "query": "",
+                  "scene": null
+              },
+              {
+                  "name": "授信-OCR识别检验",
+                  "pathName": "pages/credit/check/index",
+                  "query": "",
+                  "scene": null
+              },
+              {
+                  "name": "授信-基础信息页",
+                  "pathName": "pages/credit/basic/index",
+                  "query": "",
+                  "scene": null
+              },
+              {
+                  "name": "借款-首页",
+                  "pathName": "pages/index/index",
+                  "query": "",
+                  "scene": null
+              },
+              {
+                  "name": "授信-身份证上传",
+                  "pathName": "pages/credit/upload/index",
+                  "query": "",
+                  "scene": null
+              }
+          ]
+      }
+  }
+}
